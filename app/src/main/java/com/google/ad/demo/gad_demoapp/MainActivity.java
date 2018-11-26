@@ -1,5 +1,6 @@
 package com.google.ad.demo.gad_demoapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -8,6 +9,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import com.google.ad.demo.gad_demoapp.ui.activities.EmptyActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -45,19 +48,20 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_curs1) {
-            // Handle the camera action
-        } else if (id == R.id.nav_curs2) {
+        if (id == R.id.nav_curs1)
+        {
+               startActivity(new Intent(MainActivity.this, EmptyActivity.class));
+        }
+        else if (id == R.id.nav_curs2) {
 
-        } else if (id == R.id.nav_curs3) {
+        }
+        else if (id == R.id.nav_curs3) {
 
         } else if (id == R.id.nav_curs4) {
 
         } else if (id == R.id.nav_about) {
 
-        } else if (id == R.id.nav_send) {
-
-        }
+        } 
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
