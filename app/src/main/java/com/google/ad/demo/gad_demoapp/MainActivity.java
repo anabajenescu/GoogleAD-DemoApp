@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.google.ad.demo.gad_demoapp.ui.activities.EmptyActivity;
 import com.google.ad.demo.gad_demoapp.ui.activities.LinearLoginActivity;
@@ -63,9 +64,9 @@ public class MainActivity extends AppCompatActivity
         else if (id == R.id.nav_curs3) {
             startActivity(new Intent(MainActivity.this, RelativeLoginActivity.class));
         } else if (id == R.id.nav_curs4) {
-
+            Toast.makeText(this, "Nothing here yet!", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_about) {
-
+            Toast.makeText(this, "Nothing here yet!", Toast.LENGTH_SHORT).show();
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
