@@ -8,12 +8,11 @@
     <string name="nav_header_subtitle">Android Fundamentals Demo App</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="hello_world">Hello Atelierul Digital</string>
-    <string name="nav_label_curs1">Import</string>
-    <string name="nav_label_curs2">Gallery</string>
-    <string name="nav_label_curs3">Slideshow</string>
-    <string name="nav_label_curs4">Tools</string>
-    <string name="nav_label_about">Share</string>
-    <string name="nav_label_send">Send</string>
+    <string name="nav_label_curs1">Curs 1</string>
+    <string name="nav_label_curs2">Curs 2</string>
+    <string name="nav_label_curs3">Curs 3</string>
+    <string name="nav_label_curs4">Curs 4</string>
+    <string name="nav_label_about">Despre</string>
     <string name="nav_sectiontitle_about">Communicate</string>
 
 
