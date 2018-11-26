@@ -18,14 +18,11 @@
             android:title="@string/nav_label_curs4" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/nav_sectiontitle_about">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:title="@string/nav_label_share" />
-            <item
-                android:id="@+id/nav_send"
-                android:title="@string/nav_label_send" />
+                android:id="@+id/nav_about"
+                android:title="@string/nav_label_about" />
         </menu>
     </item>
 

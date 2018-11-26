@@ -12,8 +12,9 @@
     <string name="nav_label_curs2">Gallery</string>
     <string name="nav_label_curs3">Slideshow</string>
     <string name="nav_label_curs4">Tools</string>
-    <string name="nav_label_share">Share</string>
+    <string name="nav_label_about">Share</string>
     <string name="nav_label_send">Send</string>
+    <string name="nav_sectiontitle_about">Communicate</string>
 
 
 </resources>
