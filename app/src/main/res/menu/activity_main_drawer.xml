@@ -5,17 +5,17 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:title="@string/nav_label_import" />
+            android:id="@+id/nav_curs1"
+            android:title="@string/nav_label_curs1" />
         <item
-            android:id="@+id/nav_gallery"
-            android:title="@string/nav_label_gallery" />
+            android:id="@+id/nav_curs2"
+            android:title="@string/nav_label_curs2" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:title="@string/nav_label_slideshow" />
+            android:id="@+id/nav_curs3"
+            android:title="@string/nav_label_curs3" />
         <item
-            android:id="@+id/nav_manage"
-            android:title="@string/nav_label_tools" />
+            android:id="@+id/nav_curs4"
+            android:title="@string/nav_label_curs4" />
     </group>
 
     <item android:title="Communicate">
