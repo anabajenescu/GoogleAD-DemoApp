@@ -7,7 +7,13 @@
     <string name="nav_header_title">Atelierul Digital</string>
     <string name="nav_header_subtitle">Android Fundamentals Demo App</string>
     <string name="nav_header_desc">Navigation header</string>
-
+    <string name="hello_world">Hello Atelierul Digital</string>
+    <string name="nav_label_import">Import</string>
+    <string name="nav_label_gallery">Gallery</string>
+    <string name="nav_label_slideshow">Slideshow</string>
+    <string name="nav_label_tools">Tools</string>
+    <string name="nav_label_share">Share</string>
+    <string name="nav_label_send">Send</string>
 
 
 </resources>
