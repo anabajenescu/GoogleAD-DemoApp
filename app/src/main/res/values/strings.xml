@@ -7,7 +7,7 @@
     <string name="nav_header_title">Atelierul Digital</string>
     <string name="nav_header_subtitle">Android Fundamentals Demo App</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="hello_world">Hello Atelierul Digital</string>
+    <string name="hello_world">Alege demo-ul din meniul de navigare.</string>
     <string name="nav_label_curs1">Curs 1</string>
     <string name="nav_label_curs2">Curs 2</string>
     <string name="nav_label_curs3">Curs 3</string>
