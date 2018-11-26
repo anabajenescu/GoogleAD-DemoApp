@@ -9,9 +9,11 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.RelativeLayout;
 
 import com.google.ad.demo.gad_demoapp.ui.activities.EmptyActivity;
 import com.google.ad.demo.gad_demoapp.ui.activities.LinearLoginActivity;
+import com.google.ad.demo.gad_demoapp.ui.activities.RelativeLoginActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener
@@ -59,7 +61,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(MainActivity.this, LinearLoginActivity.class));
         }
         else if (id == R.id.nav_curs3) {
-
+            startActivity(new Intent(MainActivity.this, RelativeLoginActivity.class));
         } else if (id == R.id.nav_curs4) {
 
         } else if (id == R.id.nav_about) {

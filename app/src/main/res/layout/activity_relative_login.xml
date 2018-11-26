@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    >
+
+    <TextView
+        android:id="@+id/actRelativeLayout_tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/actLinearLayout_size_title"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="32dp"
+        android:text="@string/actRelativeLogin_title"/>
+
+    <EditText
+        android:id="@+id/actRelativeLayout_editUser"
+        android:layout_width="@dimen/actRelativeLogin_editSize"
+        android:layout_height="wrap_content"
+        android:hint="@string/actLinearLogin_inputUsername_hint"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawablePadding="8dp"
+        android:layout_below="@id/actRelativeLayout_tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:id="@+id/actRelativeLayout_editPass"
+        android:layout_width="@dimen/actRelativeLogin_editSize"
+        android:layout_height="wrap_content"
+        android:hint="@string/actRelativeLogin_inputPassword_hint"
+        android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+        android:drawablePadding="8dp"
+        android:layout_below="@id/actRelativeLayout_editUser"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/actRelativeLayout_btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/actRelativeLogin_button_text"
+        android:layout_below="@id/actRelativeLayout_editPass"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="doLogin"
+    />
+
+</RelativeLayout>

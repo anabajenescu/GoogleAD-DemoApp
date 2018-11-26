@@ -21,6 +21,7 @@
         </activity>
         <activity android:name=".ui.activities.EmptyActivity" />
         <activity android:name=".ui.activities.LinearLoginActivity"></activity>
+        <activity android:name=".ui.activities.RelativeLoginActivity"></activity>
     </application>
 
 </manifest>
