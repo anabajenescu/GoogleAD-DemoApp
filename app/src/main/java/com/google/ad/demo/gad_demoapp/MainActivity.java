@@ -11,12 +11,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.google.ad.demo.gad_demoapp.ui.activities.EmptyActivity;
+import com.google.ad.demo.gad_demoapp.ui.activities.LinearLoginActivity;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener
+{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -33,7 +36,8 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public void onBackPressed() {
+    public void onBackPressed()
+    {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
@@ -44,16 +48,15 @@ public class MainActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+    public boolean onNavigationItemSelected(MenuItem item)
+    {
         int id = item.getItemId();
 
-        if (id == R.id.nav_curs1)
-        {
-               startActivity(new Intent(MainActivity.this, EmptyActivity.class));
+        if (id == R.id.nav_curs1) {
+            startActivity(new Intent(MainActivity.this, EmptyActivity.class));
         }
         else if (id == R.id.nav_curs2) {
-
+            startActivity(new Intent(MainActivity.this, LinearLoginActivity.class));
         }
         else if (id == R.id.nav_curs3) {
 
@@ -61,7 +64,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_about) {
 
-        } 
+        }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

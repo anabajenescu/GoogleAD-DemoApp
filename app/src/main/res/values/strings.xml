@@ -14,6 +14,10 @@
     <string name="nav_label_curs4">Curs 4</string>
     <string name="nav_label_about">Despre</string>
     <string name="nav_sectiontitle_about">Communicate</string>
+    <string name="actLinearLogin_title">Linear Layout Login</string>
+    <string name="actLinearLogin_inputUsername_hint">Username</string>
+    <string name="actLinearLogin_inputPassword_hint">Password</string>
+    <string name="actLinearLogin_button_text">Sign In</string>
 
 
 </resources>
